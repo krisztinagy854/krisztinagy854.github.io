@@ -1,0 +1,117 @@
+/*Fejléc és bemutatkozás*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    background-color:#C0C0C0;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+header {
+    text-align: center;
+    background-color: #e3e3e3;
+    padding: 15px;
+    margin: 0px;
+
+    
+}
+article{
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.bemutatkozas{
+    background-color: #e3e3e3;
+    padding: 15px;
+    padding-right: 50px;  
+    text-align: justify;
+    height: 220px;
+}
+.profilkep img{
+    float: left;
+    margin-right: 30px;
+    display: block;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+/*képek és átfedések*/
+.box{
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay{
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: rgb(0, 0, 0);
+}
+.box:hover .overlay{
+    opacity: 0.7;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+a{
+    color: white;
+}
+.totop{
+    color: black;
+    text-align: center;
+}
+/*galéria */  
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+
+table img {
+    width: 600px;
+    margin-bottom: 16px;
+}
+
+
+/*lábjegyzet*/
+.lábjegyzet{
+    text-align: center;
+    width: 50%;
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    background-color: #e3e3e3;
+    padding: 15px;
+   
+    
+
+}
+.lábjegyzet p{
+    margin: 0;
+}
